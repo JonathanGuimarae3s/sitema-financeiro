@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf17152752454161" configfile="/Projeto/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf17153006480083" outlinks="pf17153006902158 pf17153006902159" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="ConsultaLancamento.xhtml" id="pf171530069021510" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf17153006902158" path="/ConsultaLancamento.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="CadastroLancamento.xhtml" id="pf171530069021511" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf17153006902159" path="/CadastroLancamento.xhtml"/>
+  <links id="pf17153006902158" target="pf171530069021510" source="pf17153006480083" outcome="consultar" redirect="true"/>
+  <links id="pf17153006902159" target="pf171530069021511" source="pf17153006480083" outcome="cadastrar" redirect="true"/>
+</pageflow:Pageflow>
